@@ -214,6 +214,32 @@ window.addEventListener("load", () => {
         },
         "+=3"
       )
+      .from(".three-1", 0.7, {
+        opacity: 0,
+        y: 10,
+      })
+      .to(
+        ".three-1",
+        0.7,
+        {
+          opacity: 0,
+          y: 10,
+        },
+        "+=3"
+      )
+      .from(".three-2", 0.9, {
+        opacity: 0,
+        y: 10,
+      })
+      .to(
+        ".three-2",
+        0.9,
+        {
+          opacity: 0,
+          y: 10,
+        },
+        "+=3"
+      )
       .from(".four", 0.7, {
         scale: 0.2,
         opacity: 0,

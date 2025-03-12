@@ -37,15 +37,25 @@ body {
 }
 .one {
   font-size: 4.5rem;
+  color: thistle;
 }
 
 .two {
   font-size: 1.2rem;
   font-weight: lighter;
+  color: thistle;
 }
 
 .three {
   font-size: 3rem;
+}
+
+.three-1 {
+  font-size: 4rem;
+}
+
+.three-2 {
+  font-size: 5rem;
 }
 
 .four .text-box {
